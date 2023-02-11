@@ -1,0 +1,11 @@
+# Tuodaan classes tänne
+
+from classes import Auto
+
+volkkari = Auto('Volkswagen', 'Golf', 'ABC-123')
+audi = Auto('Audi', 'A6', 'UXU-123')
+opel = Auto('Opel', 'Corsa', 'KFK-123')
+
+print(volkkari)
+print(audi)
+print(opel)
