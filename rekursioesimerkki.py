@@ -4,8 +4,8 @@ def kysy_nimet_rekursiolla(jäljellä, nimet=None):
     if nimet is None:
         nimet = []
     nimi = input('Anna nimi: ')
-    return kysy_nimet_rekursiolla(jäljellä - 1, nimet [nimi])
+    return kysy_nimet_rekursiolla(jäljellä - 1, nimet + [nimi])
 
 
-nimet = kysy_nimet_rekursiolla(4) 
+nimet = kysy_nimet_rekursiolla(6) 
 print(nimet)
