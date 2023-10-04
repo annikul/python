@@ -1,8 +1,8 @@
-from stdnum import iban
+from stdnum import iban as kukuu
 
 def main():
     tilinumero = input('Anna IBAN-tilinumero: ')
-    on_oikea_iban = iban.is_valid(tilinumero)
+    on_oikea_iban = kukuu.is_valid(tilinumero)
     if on_oikea_iban:
         print(f'Antamasi tilinumero {tilinumero} on oikea IBAN.')
         muotoilu = iban.format(tilinumero)
